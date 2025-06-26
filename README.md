@@ -8,6 +8,10 @@
   <img src="Preview.png" alt="Preview">
 </p>
 
+<p align="center">
+  <img src="Preview2.png" alt="Preview2">
+</p>
+
 The MorMot Socket Components provide a familiar NetCom7-Sockets-style interface for network communication while leveraging the power and performance of mORMot2's asynchronous socket framework. These components are designed as a drop-in replacement for NetCom7 components, making migration straightforward while gaining significant performance improvements.
 
 ### Key Features
