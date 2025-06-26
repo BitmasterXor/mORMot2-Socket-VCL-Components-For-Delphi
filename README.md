@@ -75,7 +75,7 @@ Ensure the component source directory is in your Delphi library path:
 
 ## Quick Start Guide
 
-2 DEMOS ARE INCLUDED for your convinance!
+2 DEMOS ARE INCLUDED for your convenience!
 
 ## Advanced Usage
 
