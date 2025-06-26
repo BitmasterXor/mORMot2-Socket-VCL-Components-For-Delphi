@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/06/26 08:00:25.000.597,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/06/26 08:02:01.000.098,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\BitmasterXor\Desktop\Mormot Netcom7 Socket Style Demo\Unit1.dfm</Transaction>
+    <Transaction>2025/06/26 08:02:01.000.098,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\BitmasterXor\Desktop\Mormot Netcom7 Socket Style Demo\Unit1.pas</Transaction>
+    <Transaction>2025/06/26 08:02:16.000.734,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\BitmasterXor\Desktop\Mormot Netcom7 Socket Style Demo\MorMotSocketsDemo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

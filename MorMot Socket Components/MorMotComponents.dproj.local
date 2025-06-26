@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/06/24 15:37:24.000.444,=rtl.dcp</Transaction>
+    <Transaction>2025/06/24 15:38:01.000.764,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\MorMotComponents.dproj</Transaction>
+    <Transaction>2025/06/24 15:41:30.000.390,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\MorMotClientComponent.pas</Transaction>
+    <Transaction>2025/06/24 15:41:30.000.467,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\MorMotComponents.pas</Transaction>
+    <Transaction>2025/06/24 15:41:30.000.550,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\MorMotServerComponent.pas</Transaction>
+    <Transaction>2025/06/24 15:41:30.000.606,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\uSimpleProtocol.pas</Transaction>
+    <Transaction>2025/06/24 15:55:04.000.150,=vcl.dcp</Transaction>
+    <Transaction>2025/06/25 04:18:28.000.912,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\TMorMotClient.bmp</Transaction>
+    <Transaction>2025/06/25 04:18:28.000.978,=C:\Users\BitmasterXor\Desktop\MorMot Socket Components\TMorMotServer.bmp</Transaction>
+  </Transactions>
+</BorlandProject>
