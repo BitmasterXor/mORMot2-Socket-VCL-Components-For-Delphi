@@ -59,7 +59,7 @@ Client component for connecting to a TMorMotServer.
 ## Installation
 
 ### Prerequisites
-- Delphi XE2 or later (tested with Delphi 11+)
+- Delphi XE2 or later (tested with Delphi 12.2)
 - mORMot2 framework installed and configured
 - Windows platform (currently Windows-only)
 
