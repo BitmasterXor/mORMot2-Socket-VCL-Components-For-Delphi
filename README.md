@@ -21,7 +21,7 @@ The MorMot Socket Components provide a familiar NetCom7-Sockets-style interface 
 - **Binary Protocol**: Efficient binary communication with magic markers and structured commands
 - **Auto-Reconnection**: Built-in reconnection handling like NetCom7
 - **Thread-Safe**: Proper synchronization for multi-threaded applications
-- **Command/Response Pattern**: Support for commands that require responses (a sort of blocking mode if you choose to enable it
+- **Command/Response Pattern**: Support for commands that require responses (a sort of blocking mode if you choose to enable it)
 - **Exception Handling**: Network exceptions are properly propagated
 
 ## Components
