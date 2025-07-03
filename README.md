@@ -14,6 +14,22 @@
 
 ---
 
+## 🎬 Component Preview
+
+<div align="center">
+
+### 🖥️ **Server Component in Action**
+![Server Component Preview](preview1.png)
+
+### 💻 **Client Component in Action**  
+![Client Component Preview](preview2.png)
+
+*See the components in action with real-time statistics, connection management, and bulletproof performance!*
+
+</div>
+
+---
+
 ## ✨ Why Choose mORMot Socket Components?
 
 ### 🎯 **Built for Performance**
@@ -685,6 +701,6 @@ end.
 
 *Download • Install • Build Amazing Apps!*
 
-**Made By BitmasterXor And Friends with ❤️ for the Delphi Community**
+**Made By BitmasterXor And Friends With ❤️ for the Delphi Community**
 
 </div>
