@@ -18,10 +18,10 @@
 
 <div align="center">
 
-### 🖥️ **Server Component in Action**
+### 🖥️ **Server Component**
 ![Server Component Preview](preview1.png)
 
-### 💻 **Client Component in Action**  
+### 💻 **Client Component**  
 ![Client Component Preview](preview2.png)
 
 *See the components in action with real-time statistics, connection management, and bulletproof performance!*
