@@ -689,6 +689,7 @@ end.
 - **Issues**: Report bugs via GitHub Issues
 - **Questions**: Community support available
 - **Contributing**: Pull requests welcome!
+- **Discord**: bitmasterxor
 
 ### 📜 **License**
 **Open Source** - Free to distribute and use in commercial and personal projects!
