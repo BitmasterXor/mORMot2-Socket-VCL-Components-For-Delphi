@@ -8,7 +8,6 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Open%20Source-orange?style=for-the-badge)
 
-*"BULLETPROOF Active Connection Counting & BULLETPROOF Reconnection After Force Disconnect"*
 
 </div>
 
@@ -70,8 +69,6 @@
    ```
    Find components in Tool Palette under "mORMot Socket"
    ```
-
-> ⚠️ **Note**: If you have mORMot2 paths in your library, you may need to remove them temporarily to avoid IntelliSense conflicts.
 
 ---
 
