@@ -176,11 +176,11 @@ var
   ReceivedText: string;
 begin
   // Convert received bytes to string
-  ReceivedText := TEncoding.UTF8.GetString(aData);
+  ReceivedText := StringOf(aData);
   ShowMessage('Received: ' + ReceivedText);
   
   // Echo back with confirmation
-  Result := TEncoding.UTF8.GetBytes('Echo: ' + ReceivedText);
+  Result := BytesOf('Echo: ' + ReceivedText);
 end;
 
 // 4. Handle client connections
@@ -216,7 +216,7 @@ procedure TClientForm.ButtonSendClick(Sender: TObject);
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Hello Server!');
+  Data := BytesOf('Hello Server!');
   MorMotClient1.SendData(Data, False);  // Unencrypted
 end;
 
@@ -248,7 +248,7 @@ function TServerForm.MorMotServer1HandleCommand(Sender: TObject;
   Client: TmMServerClient; aData: TBytes): TBytes;
 begin
   // Process data...
-  Result := TEncoding.UTF8.GetBytes('Encrypted response');
+  Result := BytesOf('Encrypted response');
   
   // Response will be encrypted automatically if client sent encrypted data
 end;
@@ -258,7 +258,7 @@ procedure TServerForm.SendEncryptedMessage(Client: TmMServerClient);
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Secret message');
+  Data := BytesOf('Secret message');
   Client.SendData(Data, True);  // Encrypted = True
 end;
 ```
@@ -279,7 +279,7 @@ procedure TClientForm.SendEncryptedData;
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Top secret data');
+  Data := BytesOf('Top secret data');
   MorMotClient1.SendData(Data, True);  // Encrypted = True
 end;
 
@@ -288,7 +288,7 @@ procedure TClientForm.SendPlainData;
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Public data');
+  Data := BytesOf('Public data');
   MorMotClient1.SendData(Data, False);  // Encrypted = False
 end;
 ```
@@ -336,7 +336,7 @@ procedure TServerForm.BroadcastPlainMessage;
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Broadcast message to all!');
+  Data := BytesOf('Broadcast message to all!');
   MorMotServer1.BroadcastData(Data, False);  // Unencrypted
 end;
 
@@ -345,7 +345,7 @@ procedure TServerForm.BroadcastEncryptedMessage;
 var
   Data: TBytes;
 begin
-  Data := TEncoding.UTF8.GetBytes('Secret broadcast!');
+  Data := BytesOf('Secret broadcast!');
   MorMotServer1.BroadcastData(Data, True);   // Encrypted
 end;
 
@@ -358,7 +358,7 @@ begin
   Client := MorMotServer1.FindClientByIP(IP);
   if Assigned(Client) then
   begin
-    Data := TEncoding.UTF8.GetBytes(Msg);
+    Data := BytesOf(Msg);
     Client.SendData(Data, False);
   end;
 end;
@@ -587,13 +587,13 @@ var
   ReceivedText: string;
   Response: string;
 begin
-  ReceivedText := TEncoding.UTF8.GetString(aData);
+  ReceivedText := StringOf(aData);
   Response := 'Echo: ' + ReceivedText;
   
   Memo1.Lines.Add(Format('[%s] %s', [Client.PeerIP, ReceivedText]));
   
   // Return echo response
-  Result := TEncoding.UTF8.GetBytes(Response);
+  Result := BytesOf(Response);
 end;
 
 procedure TForm1.MorMotServer1Connect(Sender: TObject; Client: TmMServerClient);
@@ -685,6 +685,6 @@ end.
 
 *Download • Install • Build Amazing Apps!*
 
-**Made by BitmasterXor and Friends with ❤️ for the Delphi Community**
+**Made By BitmasterXor And Friends with ❤️ for the Delphi Community**
 
 </div>
