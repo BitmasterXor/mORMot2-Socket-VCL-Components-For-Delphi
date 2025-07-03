@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/06/30 20:37:37.000.180,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/06/30 20:46:59.000.289,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/07/01 17:01:47.000.716,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/07/01 17:04:46.000.808,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\BitmasterXor\Desktop\mORMot2 Socket Components\Demos\BitmasterXor Testing Demo\Unit1.dfm</Transaction>
+    <Transaction>2025/07/01 17:04:46.000.808,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\BitmasterXor\Desktop\mORMot2 Socket Components\Demos\BitmasterXor Testing Demo\Unit1.pas</Transaction>
+    <Transaction>2025/07/01 17:04:52.000.783,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\BitmasterXor\Desktop\mORMot2 Socket Components\Demos\BitmasterXor Testing Demo\Demoproj.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
